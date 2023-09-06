@@ -1,0 +1,35 @@
+{
+  "name": "54ffb834-1238-4785-9f6f-efe8efc927b9",
+  "displayName": "Other question",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Kan ik u nog ergens anders mee helpen?" ]
+      },
+      "languageCode": "nl"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Yes",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Default Start Flow",
+    "name": "72eaa1a1-68f4-4656-ad6b-bf673ee48091"
+  }, {
+    "intent": "No",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Ik wens u nog een fijne dag." ]
+        },
+        "languageCode": "nl"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "4b4cde47-2e67-407b-9e11-69c7df8a2170"
+  } ]
+}

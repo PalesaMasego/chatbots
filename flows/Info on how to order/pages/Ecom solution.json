@@ -1,0 +1,109 @@
+{
+  "name": "3bcf2fef-ffec-4e0a-aa2a-ea301054c807",
+  "displayName": "Ecom solution",
+  "form": {
+    "parameters": [ {
+      "displayName": "telephone",
+      "required": true,
+      "entityType": "@sys.phone-number",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Mag ik uw telefoonnummer?" ]
+            },
+            "languageCode": "nl"
+          }, {
+            "text": {
+              "text": [ "Please enter your telephone number" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "e-mail_address",
+      "required": true,
+      "entityType": "@sys.email",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Mag ik uw emailadres?" ]
+            },
+            "languageCode": "nl"
+          }, {
+            "text": {
+              "text": [ "Please enter your email address" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "company_name",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Mag ik de naam van uw firma?" ]
+            },
+            "languageCode": "nl"
+          }, {
+            "text": {
+              "text": [ "Please enter your company/business name" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "vat_number",
+      "required": true,
+      "entityType": "@sys.number",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Mag ik uw BTW nummer?" ]
+            },
+            "languageCode": "nl"
+          }, {
+            "text": {
+              "text": [ "Please enter your VAT number" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Onze experten nemen graag contact met u op. Daarom ga ik even wat gegevens van u noteren." ]
+      },
+      "languageCode": "nl"
+    }, {
+      "text": {
+        "text": [ "Our experts will be happy to contact you. That's why I'm going to jot down some of your details." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Bedankt voor de info, de experten nemen zo spoedig mogelijk contact met u op." ]
+        },
+        "languageCode": "nl"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "b0b21efd-0d9e-45e1-8d91-4219d29622a4"
+  } ]
+}

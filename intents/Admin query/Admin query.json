@@ -1,0 +1,10 @@
+{
+  "name": "b18ee670-409f-4baa-bc87-179276cc180a",
+  "displayName": "Admin query",
+  "parameters": [ {
+    "id": "number",
+    "entityType": "@sys.number"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 8
+}

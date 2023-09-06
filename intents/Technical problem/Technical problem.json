@@ -1,0 +1,10 @@
+{
+  "name": "4e4fdf01-837b-47e6-9279-23cebbb87470",
+  "displayName": "Technical problem",
+  "parameters": [ {
+    "id": "number",
+    "entityType": "@sys.number"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 7
+}

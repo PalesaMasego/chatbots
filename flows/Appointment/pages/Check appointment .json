@@ -1,0 +1,49 @@
+{
+  "name": "21ff8a15-9495-46de-8a41-2904a1cd80e9",
+  "displayName": "Check appointment ",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Heeft u reeds een afspraak met ons?" ]
+      },
+      "languageCode": "nl"
+    }, {
+      "text": {
+        "text": [ "Do you have an appointment set" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Yes",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "When would you like to change the appointment to?" ]
+        },
+        "languageCode": "en"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "appointment-type",
+        "value": "change"
+      } ]
+    },
+    "targetPage": "END_FLOW_WITH_HUMAN_ESCALATION",
+    "name": "096ff3cb-8144-4aab-8583-12f404e3de5d"
+  }, {
+    "intent": "No",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Thank you" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "fec7c52b-df5f-4bc4-baae-078691490233"
+  } ]
+}

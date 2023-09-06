@@ -1,0 +1,15 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Jaa"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "nl"
+  }, {
+    "parts": [ {
+      "text": "Ja"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "nl"
+  } ]
+}

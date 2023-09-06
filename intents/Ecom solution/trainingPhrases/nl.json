@@ -1,0 +1,15 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "ecom"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "nl"
+  }, {
+    "parts": [ {
+      "text": "ecom solution"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "nl"
+  } ]
+}

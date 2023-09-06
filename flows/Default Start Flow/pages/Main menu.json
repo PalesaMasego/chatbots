@@ -1,0 +1,80 @@
+{
+  "name": "23056788-19be-4a47-854a-fbd67be03e24",
+  "displayName": "Main menu",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Ik wens info of te bestellen"
+          }, {
+            "text": "Ik heb een technisch probleem"
+          }, {
+            "text": "Ik enn administratieve vraag"
+          }, {
+            "text": "Ik heb/will een afspraak"
+          }, {
+            "text": "Andere"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "nl"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Information on how to order"
+          }, {
+            "text": "I have a technical problem"
+          }, {
+            "text": "I have an admin question"
+          }, {
+            "text": "Other issue"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Admin query",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Admin",
+    "name": "bde443a3-7ee9-4bc5-9169-1d4165802298"
+  }, {
+    "intent": "Technical problem",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Technical",
+    "name": "53f591b2-2808-49af-97c6-0636b8a9e9d2"
+  }, {
+    "intent": "Appointment ",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Appointment",
+    "name": "7a603ea4-4f03-463f-9a40-c55b177be863"
+  }, {
+    "intent": "Info on how to order",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Info on how to order",
+    "name": "0862085b-806b-4847-a829-b2631408bc3c"
+  }, {
+    "intent": "Other",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Other",
+    "name": "06a28aed-8112-4695-beaf-be25e77a6a62"
+  } ]
+}

@@ -1,0 +1,21 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "iets andere"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "nl"
+  }, {
+    "parts": [ {
+      "text": "ander"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "nl"
+  }, {
+    "parts": [ {
+      "text": "Andere vraag"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "nl"
+  } ]
+}

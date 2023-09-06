@@ -1,0 +1,17 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "tap on mobile",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "nl"
+  }, {
+    "parts": [ {
+      "text": "Tap on mobil",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "nl"
+  } ]
+}

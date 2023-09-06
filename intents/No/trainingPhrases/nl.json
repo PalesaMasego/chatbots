@@ -1,0 +1,38 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Nee",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "nl"
+  }, {
+    "parts": [ {
+      "text": "Nie",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "nl"
+  }, {
+    "parts": [ {
+      "text": "Nah",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "nl"
+  }, {
+    "parts": [ {
+      "text": "No",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "nl"
+  }, {
+    "parts": [ {
+      "text": "Neen",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "nl"
+  } ]
+}

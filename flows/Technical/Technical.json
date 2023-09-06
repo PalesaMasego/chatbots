@@ -1,0 +1,51 @@
+{
+  "name": "17e2492d-a629-44ab-ab46-c1c3515cb2c8",
+  "displayName": "Technical",
+  "transitionRoutes": [ {
+    "intent": "Technical problem",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Wij helpen u graag verder, onze dienst is bereikbaar op het nummer 02 727 88 99 Optie 1. Neem zeker een kijkje op onze support pagina: https://support.be.worldline.com/nl/home/support/technische-ondersteuning.html" ]
+        },
+        "languageCode": "nl"
+      } ]
+    },
+    "targetPage": "Other question",
+    "name": "7dcadd17-d070-4e43-a25f-a2452cef569f"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "29348580-095a-4fb2-8bae-92036857f2ae"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "e6bfaf95-697e-4b3f-b0ee-a70242ea191d"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "multiIntentSettings": {
+    
+    }
+  },
+  "advancedSettings": {
+    "enabled": true
+  }
+}

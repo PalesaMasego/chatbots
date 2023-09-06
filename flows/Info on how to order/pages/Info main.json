@@ -1,0 +1,61 @@
+{
+  "name": "fd7bc006-68cc-4419-a086-7014b3e194c5",
+  "displayName": "Info main",
+  "form": {
+    "parameters": [ {
+      "displayName": "name",
+      "required": true,
+      "entityType": "@sys.given-name",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Mag ik uw voornaam?" ]
+            },
+            "languageCode": "nl"
+          }, {
+            "text": {
+              "text": [ "Please enter your name" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "surname",
+      "required": true,
+      "entityType": "@sys.last-name",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Mag ik uw familienaam? " ]
+            },
+            "languageCode": "nl"
+          }, {
+            "text": {
+              "text": [ "Please enter your surname" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Please enter the following details to proceed:" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Info sub-menu",
+    "name": "06068cde-bd7a-4d0d-988b-63d548a2cadb"
+  } ]
+}

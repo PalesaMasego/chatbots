@@ -1,0 +1,49 @@
+{
+  "name": "93561e14-e4a1-4ea5-8c7c-301328bef3ad",
+  "displayName": "Main Other",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Hello" ]
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Vertel me in het kort waarmee ik u kan helpen." ]
+      },
+      "languageCode": "nl"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Admin query",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Admin",
+    "name": "b44912ec-5939-4e76-85b9-e8815bfa07e9"
+  }, {
+    "intent": "Info on how to order",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Info on how to order",
+    "name": "85bbd0fc-4368-4d42-bd7c-15984d9903ec"
+  }, {
+    "intent": "Appointment ",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Appointment",
+    "name": "f2158abe-6752-46b9-974e-8548a64dcdbe"
+  }, {
+    "intent": "Technical problem",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Technical",
+    "name": "bc08e444-52e7-4e36-a859-e20124c79f43"
+  } ]
+}

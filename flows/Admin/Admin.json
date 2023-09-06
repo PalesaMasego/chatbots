@@ -1,0 +1,49 @@
+{
+  "name": "d81e65cf-128d-4fce-ab7e-dfaeaf3ffae8",
+  "displayName": "Admin",
+  "transitionRoutes": [ {
+    "intent": "Admin query",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Wij helpen u graag verder, onze dienst is bereikbaar op het nummer 02 727 88 99  Optie 2. Neem zeker een kijkje op onze support pagina: https://support.be.worldline.com/nl/home/support.html" ]
+        },
+        "languageCode": "nl"
+      }, {
+        "text": {
+          "text": [ "We would be happy to help you, our services can be reached on 02 727 88 99 Option 2. Be sure to take a look at our support page: https://support.be.worldline.com/nl/home/support.html Can I help with anything else?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Kan ik helpen verder",
+    "name": "0e6e45f0-130f-4082-a03f-d91dfcf8cff8"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "eb780390-4b45-4063-9dab-40c40d3ca2dc"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "8e5f917c-00ff-493c-aabe-0ddbb44dbd0a"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001
+  }
+}

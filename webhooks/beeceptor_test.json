@@ -1,0 +1,10 @@
+{
+  "name": "53542a07-ad6c-44e5-a842-49b7760a8528",
+  "displayName": "beeceptor_test",
+  "genericWebService": {
+    "uri": "https://palesa.free.beeceptor.com"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

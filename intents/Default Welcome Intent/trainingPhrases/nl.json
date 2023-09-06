@@ -1,0 +1,83 @@
+{
+  "trainingPhrases": [ {
+    "id": "846183cd-ced5-4029-a472-9b894ab23f00",
+    "parts": [ {
+      "text": "hé",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "nl"
+  }, {
+    "id": "5adab39f-98ea-461a-ad0a-db9071b7880f",
+    "parts": [ {
+      "text": "hoi",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "nl"
+  }, {
+    "id": "7a9d431e-13d9-42b4-82d4-e71325793fe2",
+    "parts": [ {
+      "text": "hé hoi",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "nl"
+  }, {
+    "id": "354548ba-a986-4275-a7a3-e4e34cc141f8",
+    "parts": [ {
+      "text": "hé hallo",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "nl"
+  }, {
+    "id": "783dbb29-e0de-449a-a178-4ec4bb46744f",
+    "parts": [ {
+      "text": "gegroet",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "nl"
+  }, {
+    "id": "508ddb70-1221-4ff7-8a76-0cccd196496a",
+    "parts": [ {
+      "text": "ik begroet je",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "nl"
+  }, {
+    "id": "5b5d4188-0a1c-4f4c-a38b-e3a7a1e7577d",
+    "parts": [ {
+      "text": "lang niet gezien",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "nl"
+  }, {
+    "id": "c5c925ad-6762-45f2-9a03-1242dee37277",
+    "parts": [ {
+      "text": "goeiedag",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "nl"
+  }, {
+    "id": "97726211-dafe-4348-b249-6737140021ba",
+    "parts": [ {
+      "text": "goedendag",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "nl"
+  }, {
+    "id": "10977d67-06c3-4147-bc44-e959e52224fd",
+    "parts": [ {
+      "text": "hallo",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "nl"
+  } ]
+}

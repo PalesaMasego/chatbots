@@ -1,0 +1,35 @@
+{
+  "name": "8a8fd2ed-6205-464c-bf2d-103d67e52ca4",
+  "displayName": "Kan ik helpen verder",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Kan ik u nog ergens anders mee helpen?" ]
+      },
+      "languageCode": "nl"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Yes",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Default Start Flow",
+    "name": "98046c65-0b18-4100-a5d7-03460064abba"
+  }, {
+    "intent": "No",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Ik wens u nog een fijne dag." ]
+        },
+        "languageCode": "nl"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "4ea783de-78a5-4d5e-87be-e20f73b8eaf2"
+  } ]
+}

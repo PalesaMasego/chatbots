@@ -1,0 +1,78 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Hallo en welkom bij Worldline!\nIk ben Charlie de virtuele assistent van Worldline", "Hallo en welkom bij Worldline!\nIk ben Charlie de virtuele assistent van Worldline" ]
+        },
+        "languageCode": "nl"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "accessibilityText": "Example logo",
+            "rawUrl": "https://i.imgur.com/DfkR8wf.jpeg",
+            "type": "image"
+          } ] ]
+        },
+        "languageCode": "nl"
+      }, {
+        "text": {
+          "text": [ "Hi! How are you doing? Please select any of the options below to continue: ", "Hello! How can I help you? Please select any of the options below to continue: ", "Good day! What can I do for you today? Please select any of the options below to continue: ", "Greetings! How can I assist? Please select any of the options below to continue: " ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "accessibilityText": "Example logo",
+            "rawUrl": "https://i.imgur.com/DfkR8wf.jpeg",
+            "type": "image"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Main menu",
+    "name": "8963c1e4-fab8-4ca8-bf90-6f263ad5b45f"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Ik begrijp het niet.", "Ik versta het niet." ]
+        },
+        "languageCode": "nl"
+      }, {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "584225e2-2bf8-4cb2-aa86-adeb1624da6a"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Ik begrijp het niet.", "Ik versta het niet." ]
+        },
+        "languageCode": "nl"
+      }, {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "69f2136c-2fe4-4fde-b0c0-a5f0fdff5fc9"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001
+  }
+}

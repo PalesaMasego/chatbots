@@ -1,0 +1,61 @@
+{
+  "name": "5d44f76c-fbd7-4c96-8709-89f0b769c7ba",
+  "displayName": "Appointment main",
+  "form": {
+    "parameters": [ {
+      "displayName": "name",
+      "required": true,
+      "entityType": "@sys.person",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Mag ik uw voornaam?" ]
+            },
+            "languageCode": "nl"
+          }, {
+            "text": {
+              "text": [ "Please enter your name" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "surname",
+      "required": true,
+      "entityType": "@sys.last-name",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Mag ik uw familienaam?" ]
+            },
+            "languageCode": "nl"
+          }, {
+            "text": {
+              "text": [ "Kindly enter your surname" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Kindly provide me with the below details to proceed further" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Check appointment ",
+    "name": "ccbbcd9b-929a-411a-9932-a972320ca950"
+  } ]
+}

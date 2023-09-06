@@ -1,0 +1,33 @@
+{
+  "defaultLanguageCode": "en",
+  "supportedLanguageCodes": [ "nl" ],
+  "timeZone": "Europe/Kaliningrad",
+  "projectNumber": 1039810733659,
+  "speechToTextSettings": {
+  
+  },
+  "startFlow": "Default Start Flow",
+  "advancedSettings": {
+    "audioExportGcsDestination": {
+    
+    },
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 5
+      }
+    },
+    "playbackInterruptionSettings": {
+    
+    },
+    "loggingSettings": {
+    
+    }
+  },
+  "speakerIdSettings": {
+  
+  },
+  "textToSpeechSettings": {
+  
+  }
+}

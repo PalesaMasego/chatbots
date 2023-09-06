@@ -1,0 +1,72 @@
+{
+  "name": "35227612-ecc2-4e01-b134-595f9cb79096",
+  "displayName": "Info sub-menu",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Wenst u info over een betaalterminal of een ecom solution" ]
+      },
+      "languageCode": "nl"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Betaalterminal"
+          }, {
+            "text": "Ecom solution"
+          }, {
+            "text": "Tap on mobile"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "nl"
+    }, {
+      "text": {
+        "text": [ "Would you like information on payment terminals or Ecom solutions" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Payment terminal"
+          }, {
+            "text": "Ecom solutions"
+          }, {
+            "text": "Tap on mobile"
+          }, {
+            "text": "Other issue"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Payment terminal",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "END_FLOW_WITH_HUMAN_ESCALATION",
+    "name": "7d9c9c28-7cc0-4b4f-8d71-a4019f9d6fdd"
+  }, {
+    "intent": "Tap on mobile",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "END_FLOW_WITH_HUMAN_ESCALATION",
+    "name": "aa7171b1-1982-4f53-933d-4983b7826c3c"
+  }, {
+    "intent": "Ecom solution",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Ecom solution",
+    "name": "96fc31ce-e041-4496-ab95-46e2a8bd598c"
+  } ]
+}

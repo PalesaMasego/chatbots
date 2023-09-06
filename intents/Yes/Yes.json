@@ -1,0 +1,13 @@
+{
+  "name": "8e9b42bc-699e-4790-8b1e-c00d1b070c28",
+  "displayName": "Yes",
+  "parameters": [ {
+    "id": "person",
+    "entityType": "@sys.person"
+  }, {
+    "id": "location",
+    "entityType": "@sys.location"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 6
+}

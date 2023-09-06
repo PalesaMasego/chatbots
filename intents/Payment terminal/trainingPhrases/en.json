@@ -1,0 +1,15 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Payment terminal options"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is a payment terminal"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}
